@@ -1,0 +1,93 @@
+{
+  "synthetic_examples_only": true,
+  "engine_tests_passed": 10,
+  "http_checks": [
+    {
+      "path": "/api/health",
+      "status": 200
+    },
+    {
+      "path": "/models/model.onnx",
+      "status": 404
+    },
+    {
+      "path": "/.venv/pyvenv.cfg",
+      "status": 404
+    },
+    {
+      "path": "/api/analyze",
+      "status": 403
+    },
+    {
+      "path": "/api/analyze",
+      "status": 400
+    },
+    {
+      "path": "/api/analyze",
+      "status": 200
+    },
+    {
+      "path": "/api/analyze",
+      "status": 200
+    },
+    {
+      "path": "/api/analyze",
+      "status": 200
+    },
+    {
+      "path": "/api/analyze",
+      "status": 200
+    },
+    {
+      "path": "/api/analyze",
+      "status": 200
+    }
+  ],
+  "warm_analysis_ms": [
+    68.1,
+    57.6,
+    62.7,
+    59.4,
+    57.1
+  ],
+  "median_warm_ms": 59.4,
+  "python_socket_block_test_passed": true,
+  "browser": {
+    "example_loaded": true,
+    "real_inference_rendered": true,
+    "evidence_expansion": true,
+    "markdown_download": true,
+    "screenshot": "artifacts/browser-proof.jpg",
+    "full_page_capture_failed": true,
+    "html_injection_rendered_as_text": true,
+    "clear_resets_inputs_and_results": true
+  },
+  "no_external_publish": true,
+  "actual_paid_customers": 0,
+  "actual_received": 0,
+  "demo_method": "Slideshow of actual browser snapshots, not an uninterrupted live screencast.",
+  "demo_verification": {
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "24/1"
+        }
+      ],
+      "format": {
+        "duration": "41.000000",
+        "size": "536924"
+      }
+    },
+    "full_decode_exit_code": 0,
+    "browser_playback_observed": true,
+    "caption_overlap_found_and_corrected": true,
+    "corrected_frame_visually_checked": "artifacts/demo-frame-proof.jpg",
+    "method": "Actual browser screenshot slideshow, not uninterrupted screen recording",
+    "audio_track": false
+  }
+}
