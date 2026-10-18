@@ -1,0 +1,5 @@
+{
+  "synthetic": true,
+  "brief": "[IN] One English landing page for a neighbourhood bakery, for desktop and mobile.\n[IN] A contact form that sends customer enquiries to the bakery email address.\n[LIMIT] Two rounds of visual design revisions.\n[OUT] E-commerce, checkout and online payments.\n[OUT] Extra languages and translation of website pages.",
+  "requests": "Could the contact form forward enquiries to our inbox?\nCan we accept credit cards for cake preorders?\nPlease add a French version of the website.\nCan you deliver a 3D animation of our new cake?"
+}
